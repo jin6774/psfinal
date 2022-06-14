@@ -1,0 +1,1166 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth@125&display=swap');
+/* font-family: 'Archivo', sans-serif; */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+/*font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;*/
+
+/* main */
+#main_area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    background-image: url(../img/main_bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+}
+#main_area .main_wrap {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Archivo', sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #2C2C2C;
+}
+
+/* title */
+.main_wrap .title_area {
+    height: 50px;
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #2C2C2C;
+    float: left;
+    /* border: solid 1px red; */
+}
+.title_area #title_logo {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    /* border: solid 1px red; */
+}
+.title_area #title_logo img {
+    height: 40px;
+    display: block;
+    /* border: solid 1px red; */
+}
+.title_area #title_UP {
+    position: absolute;
+    font-size: 14px;
+    top: 35px;
+    right: 40px;
+    /* border: solid 1px red; */
+}
+/* moving */
+.moving_area {
+    user-select: none;
+    font-size: 200px;
+    width: 100%;
+    position: absolute;
+    margin-left: -2600px;
+    top: 50%;
+    margin-top: -277px;
+}
+.moving_area .moving_text {
+    display: block;
+    width: 1700%;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 20s linear infinite;
+}
+.moving_text img {
+    height: 160px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.moving_text .hi1 {
+    float: left;
+    width: 50%;
+    height: 180px;
+    overflow: hidden;
+    letter-spacing: -20px;
+}
+.moving_text .hi2 {
+    float: left;
+    width: 50%;
+    height: 180px;
+    overflow: hidden;
+    margin-top: -50px;
+    letter-spacing: -20px;
+}
+.moving_text .hi3 {
+    float: left;
+    width: 50%;
+    height: 180px;
+    overflow: hidden;
+    margin-top: -100px;
+    letter-spacing: -20px;
+}
+
+@keyframes marquee {
+    0% { left: 0; }
+    100% { left: -100%; }
+}
+
+/* title_bottom */
+.title_b_area {
+    height: 80px;
+    width: 96%;
+    margin: 0 auto;
+    bottom: 0;
+    left: 30px;
+    border-top: solid 1px #2C2C2C;
+    position: absolute;
+    font-size: 14px;
+    overflow: hidden;
+}
+#title_b_text {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+#title_b_text ul {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+}
+#title_b_text li {
+    float: left;
+    list-style: none;
+    overflow: hidden;
+}
+#title_b_text #t1 {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    overflow: hidden;
+}
+#title_b_text #t2 {
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    bottom: 30px;
+    overflow: hidden;
+}
+#title_b_text #t3 {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    overflow: hidden;
+}
+/* main2*/
+#main2_area {
+    overflow: hidden;
+    width: 100%;
+    color: white;
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+/*overveiw1*/
+#ov1 {
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+    background-color: #00CE3F;
+    margin: 0 auto;
+}
+.ov_text {
+    margin: 0 auto;
+    margin-top: 70px;
+}
+table, tr, th, td {
+    vertical-align: top;
+}
+.ov_text th {
+    font-size: 20px;
+}
+.ov_text td {
+    font-size: 15px;
+    padding-left: 60px;
+}
+/*problem*/
+#problem_wrap {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+#problem_wrap #pb1_area {
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+#problem_wrap #pb1_area #pb1_1 {
+    float: left;
+    width: 350px;
+}
+#problem_wrap #pb1_area #pb1_2 {
+    float: left;
+    width: 350px;
+    margin-left: 35px;
+}
+#problem_wrap #pb1_area #pb1_3 {
+    float: right;
+    width: 350px;
+}
+/*overveiw2*/
+.ov_text2 {
+    margin: 0 auto;
+    margin-top: 100px;
+    vertical-align: top;
+}
+.ov_text2 th {
+    font-size: 20px;
+}
+.ov_text2 td {
+    font-size: 15px;
+    font-weight: 100;
+    padding-left: 60px;
+}
+/*problem2*/
+#pb2_area {
+    margin-top: 300px;
+    height: 350px;
+}
+#pb2_area img {
+    height: 350px;
+    float: left;
+}
+#pb2_area .pb_text {
+    float: right;
+    margin-top: 195px;
+    text-align: right;
+}
+#pb2_area .pb_text h1 {
+    float: right;
+    font-size: 40px;
+}
+#pb2_area .pb_text p {
+    float: right;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+/*problem3*/
+#pb3_area {
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 250px;
+    height: 350px;
+}
+#pb3_area img {
+    height: 350px;
+    float: right;
+}
+#pb3_area .pb_text {
+    float: left;
+    margin-top: 195px;
+}
+#pb3_area .pb_text h1 {
+    float: left;
+    font-size: 40px;
+}
+#pb3_area .pb_text p {
+    float: left;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+/*problem4*/
+#pb4_area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/pb4.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+#pb4_area .pb_text {
+    float: left;
+    margin-top: 520px;
+}
+#pb4_area .pb_text p {
+    margin-top: 50px;
+}
+/*ck_wrap*/
+#ck_wrap {
+    color: #353535;
+    width: 100%;
+}
+#ck_area .pb_text h3 {
+    float: left;
+    width: 100%;
+    font-size: 40px;
+}
+#ck_area .pb_text p {
+    float: left;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#ck_area {
+    margin-top: 300px;
+}
+#ck1 {
+    margin-top: 20px;
+    height: 273px;
+    display: block;
+    text-align: right;
+    /* border: solid 1px blue; */
+}
+#ck1 #ck1_img {
+    float: left;
+    width: 150%;
+    height: 100%;
+    background-image: url(../img/ck1.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*worry_area*/
+#worry_area {
+    margin-top: 300px;
+}
+#worry_area .pb_text {
+    width: 100%;
+    float: left;
+}
+#worry_area .pb_text h3 {
+    float: left;
+    font-size: 40px;
+    width: 450px;
+}
+#worry_area .pb_text p {
+    float: right;
+}
+/*persona*/
+#persona_area {
+    display: block;
+    margin-bottom: 300px;
+}
+.persona {
+    margin-top: 40px;
+    width: 190%;
+    height: 210px;
+    overflow: hidden;
+}
+.persona img {
+    height: 210px;
+    margin-left: 20px;
+}
+#ps1 {
+    margin-left: -85px;
+}
+#ps2 {
+    margin-left: -255px;
+}
+/*target*/
+#target {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/tg1.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.tg_text {
+    float: left;
+    margin-top: 120px;
+    text-align: left;
+}
+.tg_text h2{
+    font-size: 30px;
+}
+.tg_text h1{
+    font-size: 40px;
+}
+
+#target2 {
+    width: 100%;
+    /* border: solid 2px blue; */
+    color: #1c1c1c;
+}
+#target2 img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px 10px rgba(169, 169, 169, 0.26);
+}
+#target2 #tg2 {
+    width: 520px;
+    float: left;
+    margin-top: 350px;
+    margin-left: 180px;
+    /* border: solid 1px orange; */
+}
+#target2 #tg3 {
+    width: 350px;
+    float: right;
+    margin-top: 280px;
+    margin-left: 50px;
+    /* border: solid 1px orange; */
+}
+#target2 #tg4 {
+    width: 320px;
+    float: left;
+    margin-top: -70px;
+    /* border: solid 1px orange; */
+}
+#target2 #tg5 {
+    width: 600px;
+    float: left;
+    margin-top: -70px;
+    margin-left: 50px;
+    /* border: solid 1px orange; */
+}
+.tg2_text {
+    float: left;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.tg2_text h1{
+    font-size: 40px;
+}
+#target2 table {
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 200px;
+    /* border: solid 1px orange; */
+}
+
+/*effect*/
+#effect {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/effect.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+.ef_text {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+.ef_text h2{
+    font-size: 30px;
+}
+.ef_text h1{
+    font-size: 40px;
+}
+.ef_text #ef_ul {
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 600;
+    /* border: solid 1px red; */
+}
+.ef_text #ef_li1 {
+    float: left;
+    /* border: solid 1px blue; */
+}
+.ef_text #ef_li2 {
+    float: left;
+    margin-left: 240px;
+    /* border: solid 1px blue; */
+}
+.ef_text #ef_li3 {
+    float: right;
+    /* border: solid 1px blue; */
+}
+#ef_ul #e_dot3 {
+    width: 15px;
+    height: 15px;
+    background-color: #00CE3F;
+    border-radius: 50%;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+/* func_area */
+#func_area {
+    width:100%;
+    height: 1300px;
+    background-color: #2c2c2c;
+}
+#func_area .pb_text {
+    float: right;
+    margin: 0 auto;
+    margin-top: 285px;
+    width: 100%;
+}
+#func_area .pb_text p {
+    float: right;
+    margin-left: 30px;
+}
+#func_area #gc_title {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+#func_area #gc_title1 {
+    float: left;
+    font-size: 20px;
+}
+#func_area #gc_title2 {
+    float: left;
+    margin-left: 540px;
+    font-size: 20px;
+}
+#func_area .gc_area {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    margin-bottom : 15px;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: space-between;
+}
+#func_area .gc {
+    float: left;
+    width: 260px;
+    height: 260px;
+    background-color: #57CA42;
+    border-radius: 50%;
+}
+#func_area .gc p {
+    text-align: center;
+    margin-top: 105px;
+    font-size: 20px;
+}
+#func_area #x {
+    float: left;
+    width: 100%;
+    height: 1px;
+    text-align: center;
+    /* border: solid 2px red; */
+}
+#func_area #x img{
+    position: relative;
+    bottom: 381px;
+    height: 200px;
+}
+/* goal area */
+#goal_area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/goal.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #1c1c1c;
+}
+#goal_area #goal_text {
+    float: left;
+    width: 100%;
+    margin-top: 240px;
+    /* border: solid 1px red; */
+    justify-content: space-between;
+}
+#goal_area .content_text1 {
+    float: left;
+    margin-top: 60px;
+    /* border: solid 1px red; */
+}
+#goal_area .content_text2 {
+    float: right;
+    margin-top: 60px;
+    /* border: solid 1px red; */
+}
+#goal_area #goal_text h1{
+    font-size: 45px;
+}
+/* slogkey area */
+#slogkey_area {
+    color: #1c1c1c;
+}
+#slogkey_area #slog_text {
+    margin-top: 250px;
+}
+#slog_img {
+    width: 100%;
+    float: left;
+    margin-top: -220px;
+}
+#slog_img #slog1 {
+    float: left;
+    width: 100%;
+}
+#slog_img #slog1 img{
+    margin-right: 20px;
+    height: 290px;
+    float: right;
+}
+#slog_img #slog2 {
+    float: left;
+    width: 100%;
+}
+#slog_img #slog2 img{
+    margin-top: 70px;
+    height: 290px;
+    float: left;
+}
+#slog_img #slog3 {
+    float: right;
+    width: 100%;
+    margin-top: -250px;
+}
+#slog_img #slog3 img{
+    height: 290px;
+    margin-right: 450px;
+    float: right;
+}
+
+/* key_text */
+#key_area {
+    margin-top: 200px;
+}
+#key_text {
+    float: left;
+}
+/* keywords */
+#keywords {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#keywords p {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    word-spacing: 70px;
+    margin-bottom: 80px;
+}
+#keywords p span:hover {
+    font-weight: 600;
+    color: #00CE3F;
+}
+
+/* hi_area */
+#hi_area {
+    width: 100%;
+    height: 650px;
+    background-color: #353535;
+    text-align: center;
+}
+#hi_area img {
+    height: 50px;
+    /* border: solid 1px red; */
+}
+#hi_area p {
+    font-size: 25px;
+    color: #2DD00F;
+}
+#hi_area .half #hi {
+    width: 100%;
+    height: 57%;
+    float: left;
+    background: url(../img/hi.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hi_area .half #hi #hi_text {
+    float: left;
+    width: 100%;
+    margin-top: 150px;
+}
+#hi_area .half #high {
+    width: 100%;
+    height: 43%;
+    float: left;
+    background: url(../img/high.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hi_area .half #high #high_text {
+    /* border: solid 1px red; */
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+#hi_area .half #high p {
+    margin-top: -5px;
+}
+#hi_area #pick {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: url(../img/pick.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#hi_area #pick #pick_text {
+    /* border: solid 1px red; */
+    float: left;
+    width: 100%;
+    margin-top: 290px;
+}
+
+img#xx {
+    height: 300px;
+    position: relative;
+    top: -430px;
+}
+
+/* trend_area */
+#trend_area {
+    width: 100%;
+    color: #2C2C2C;
+}
+#trend_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+}
+#trend_area .pb_text p {
+    float: right;
+}
+/* trend_img */
+.trend_img {
+    width: 100%;
+    height: 580px;
+    text-align: center;
+    background-color: #d8d8d8;
+    overflow: hidden;
+}
+.trend_img #activity_up {
+    float: left;
+    background: url(../img/hipick_crop.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #2DD00F;
+    overflow: hidden;
+}
+.trend_img #activity_dn {
+    float: left;
+    background: url(../img/act_crop.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.trend_img #mountain_up {
+    float: left;
+    background: url(../img/mt_crop2.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.trend_img #mountain_dn {
+    float: left;
+    background: url(../img/mt_crop.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #57CA42;
+}
+.trend_img h4 {
+    float: left;
+    color: #2C2C2C;
+    font-size: 25px;
+    margin-top: 500px;
+    margin-left: 20%;
+}
+
+/* logo_area */
+#logo_area {
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+}
+/* color_area */
+#color_area {
+    width: 100%;
+    height: 600px;
+    background: url(../img/color.png);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#color_area .color {
+    margin-top: 330px;
+    /* border: solid 1px red; */
+}
+#color_area .color h4 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+#color_area .color h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+#color_area .color p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 110px;
+    word-spacing: 3px;
+}
+#color_area #green {
+    float: left;
+}
+#color_area #black {
+    float: left;
+    margin-left: 295px;
+}
+#color_area #gray {
+    color: #2C2C2C;
+    float: right;
+}
+/* color_text */
+#color_text {
+    width: 100%;
+    color: #2C2C2C;
+}
+#color_text .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+}
+#color_text .pb_text p {
+    float: right;
+}
+
+/* UI_area */
+#ui_area {
+    width: 100%;
+    color: #2C2C2C;
+}
+#ui_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    float: left;
+}
+#ui_area .pb_text p {
+    float: right;
+}
+#ui_area #ui_img {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/ui.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* hiker_area */
+#hiker_area {
+    width: 100%;
+    color: #2C2C2C;
+}
+#hiker_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    float: left;
+}
+#hiker_area .pb_text h1 {
+    width: 100%;
+}
+#hiker_area .pb_text p {
+    float: left;
+    width: 490px;
+    margin-top: 20px;
+}
+
+#hiker_area #hiker_img img{
+    width: 345px;
+    float: left;
+}
+#hiker_area #hiker_img #hiker2{
+    margin-top: 80px;
+    margin-left: 43px;
+}
+#hiker_area #hiker_img #hiker3{
+    margin-top: 160px;
+    float: right;
+}
+/* hiking_area */
+#hiking_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 200px;
+    margin-left: 380px;
+    float: left;
+}
+#hiking_area .pb_text h1 {
+    width: 100%;
+}
+#hiking_area .pb_text p {
+    float: left;
+    width: 490px;
+    margin-top: 20px;
+}
+#hiking_area img {
+    float: left;
+    width: 1100px;
+    margin-top: -270px;
+    margin-left: -180px;
+}
+/* record_area */
+#record_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 300px;
+    float: left;
+}
+#hiker_area .pb_text h1 {
+    width: 100%;
+}
+#hiker_area .pb_text p {
+    float: left;
+    width: 510px;
+    margin-top: 20px;
+}
+#record_img {
+    width: 100%;
+    margin-top: -300px;
+}
+
+/* emer_area */
+#emer_area {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/119.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#emer_area .pb_text {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    height: 140px;
+    margin-top: 420px;
+    margin-right: 200px;
+    z-index: 2;
+}
+#emer_area .pb_text {
+    margin: 0 auto;
+    height: 140px;
+    margin-top: 130px;
+    margin-right: 200px;
+}
+
+#emer_area .pb_text {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 50%;
+    float: left;
+    /* border: solid 1px red; */
+}
+#emer_area .pb_text h1 {
+    width: 100%;
+}
+#emer_area .pb_text p {
+    float: left;
+    width: 490px;
+    margin-top: 20px;
+}
+
+/* brief_area */
+#brief_area {
+    width: 100%;
+    text-align: center;
+}
+#brief_area #brief_back {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/brief_back.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#brief_area #brief_img {
+    height: 800px;
+    margin-top: -453px;
+    /* border: solid 2px red; */
+}
+#brief_area #brief {
+    width: 350px;
+    /* border: solid 2px red; */
+}
+#brief_area #brief_icon {
+    width: 300px;
+    margin-top: -480px; 
+    margin-left: 411px;
+    /* border: solid 2px red; */
+}
+#brief_area #brief_icon img{
+    height: 115px;
+    /* border: solid 2px red; */
+}
+#brief_area .pb_text {
+    color: #2C2C2C;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    /* border: solid 1px red; */
+}
+#brief_area .pb_text h1 {
+    width: 100%;
+}
+#brief_area .pb_text p {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* grow_area */
+#grow_area {
+    margin-top: 250px;
+    text-align: center;
+}
+#grow_area img {
+    width: 100%;
+}
+#grow_area .pb_text {
+    color: #2C2C2C;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+#grow_area .pb_text h1 {
+    width: 100%;
+}
+#grow_area .pb_text p {
+    margin: 0 auto;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* miss_area */
+#miss_area {
+    margin-top: 50px;
+    text-align: left;
+    background-image: url(../img/miss_back.png);
+    background-attachment: scroll;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#miss_area #miss_img {
+    margin-top: -340px;
+    /* border: solid 1px red; */
+    float: left;
+    width: 100%;
+}
+#miss_area #miss_img #miss1 {
+    float: left;
+    margin-top: 365px;
+    width: 360px;
+}
+#miss_area #miss_img #miss2 {
+    width: 720px;
+    float: right;
+}
+#miss_area .pb_text {
+    color: #2C2C2C;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    margin-top: 580px;
+}
+#miss_area .pb_text h1 {
+    width: 100%;
+}
+#miss_area .pb_text p {
+    margin: 0 auto;
+    float: left;
+    width: 350px;
+    margin-top: 20px;
+}
+
+/* don_area */
+#don_area {
+    width: 1120px;
+    margin: 0 auto;
+    margin-top: 550px;
+    text-align: left;
+}
+#don_area .area {
+    width: 130%;
+}
+#don_area #don_img {
+    margin-top: -540px;
+    /* border: solid 1px red; */
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+}
+#don_area #don_img #don1 {
+    float: left;
+    width: 400px;
+}
+#don_area #don_img #don2 {
+    width: 345px;
+    float: left;
+    margin-top: 665px;
+}
+#don_area #don_img #don3 {
+    width: 315px;
+    float: left;
+    margin-top: 738px;
+}
+#don_area #don_img #don4 {
+    width: 315px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 738px;
+}
+#don_area .pb_text {
+    color: #2C2C2C;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+    margin-left: 400px;
+}
+#don_area .pb_text h1 {
+    width: 100%;
+}
+#don_area .pb_text p {
+    margin: 0 auto;
+    float: left;
+    width: 400px;
+    margin-top: 20px;
+}
